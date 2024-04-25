@@ -2,4 +2,32 @@
 
 body{
     background-image: url(images/bg.png);
+    font-size: 16px;
+    font-family: 'arial', 'Apple SD Gothic Neo', 'NaumGothic', sans-serif;
+    color: #333;
+}
+header{
+    width: 1240px;
+    /* margin: 위여백 양쪽가로여백 아래여백; */
+    /* margin : 값이 하나면 위, 오른쪽, 아래, 왼쪽 여백 */
+    margin: 0 auto 44px;
+}
+h1{
+    /* background-color: orange; */
+    text-align: center;
+    padding: 20px 0 16px;
+}
+h1 img{
+    margin: 20px 0 16px;
+}
+header nav ul{
+    display: flex;
+    justify-content: center;
+    border-top: 2px solid #7c5d48;
+    border-bottom: 2px solid #7c5d48;
+    background-color: rgba(255, 255, 255, .42);
+    padding: 12px 0 10px;
+}
+header nav ul li{
+    margin: 0 20px;
 }
